@@ -1,8 +1,8 @@
 public class Calculator {
-	private int result;
+	private double result;
 	
 		//Метод проводит математические операции 
-	public void add(int params, int params2, String operator){
+	public void add(double params, double params2, String operator){
 			if(operator.equals("+")){this.result = params + params2;}
 			else if(operator.equals("-")){this.result = params - params2;} 
 			else if(operator.equals("*")){this.result = params * params2;} 
@@ -11,7 +11,7 @@ public class Calculator {
 				
 			}
 	//Метод возвращает результат 
-	public int getResult(){
+	public double getResult(){
 		return this.result;
 	}
 	
