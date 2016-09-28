@@ -19,7 +19,6 @@ public class InteractRunner {
 					// Ввод первого операнда. 
 					if(UseResult.equals("yes")){
                         first = String.valueOf(calc.getResult());
-                        System.out.println(first);
 						} else{
                         System.out.println("Enter first arg : ");
                         first = reader.next();
